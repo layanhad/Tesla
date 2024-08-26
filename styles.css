@@ -1,0 +1,165 @@
+@font-face {
+    font-family: 'Universal San';
+    src: url(/Font/Universal.ttf) format('truetype');
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Universal San';
+}
+
+.tds-icon-logo-wordmark {
+    color: white;
+    width: 7.5rem;
+    display: flex;
+    align-items: center;
+}
+
+.tds-icon-globe,.tds-icon-help,.tds-icon-person {
+    width: 1.5rem;
+    cursor: pointer;
+    color: white;
+}
+
+.tds-icon-globe:hover,.tds-icon-help:hover,.tds-icon-person:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+  
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 3.1rem;
+    position: absolute;
+    padding: 2rem;
+    margin-top: 0;
+}
+
+ul {
+    justify-content: center;
+    display: flex;
+    list-style: none;
+    width:25rem;
+    margin-left: 27rem;
+}
+
+ul li{
+    text-align: center;
+    padding: 1rem;
+}
+
+ul li:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    border-radius: 0.5rem;
+}
+
+ul li a{
+    font-size: 0.9rem;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 0.5rem;
+}
+
+.icons{
+    display: flex;
+    width: 6.25rem;
+    flex-basis: 0;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 0.7rem;
+}
+
+.icons a{
+    text-decoration: none;
+}
+
+.Model-3, .Model-X, .Model-Y{
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+
+.Model-3{
+  background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-3-Desktop-US.png);
+}
+
+.Model-Y{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-Y-Desktop-US-v2.png);
+}
+
+.Model-X{
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto/Homepage-Model-X-Desktop-US.png);
+}
+
+.model{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 5rem;
+}
+
+.model h1{
+    font-size: 3.5rem;
+    font-weight: 500;
+}
+
+.model a{
+    font-size: 1.75em;
+    margin-bottom: 0.3rem;
+    color: white;
+}
+
+.model p{
+    font-size: 1.2rem;
+    color: white;
+}
+
+.model p sup{
+    font-size: 0.5rem;
+    vertical-align: super;
+}
+
+.model-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap:1rem;
+    bottom: 0;
+    margin-bottom: 2rem;
+}
+
+.model-buttons a{
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+    line-height: 1rem;
+    font-size: 0.9rem;
+    font-weight: 500;
+    border-radius: 0.25rem;
+    min-width: 16rem;
+    padding: 0.75rem 6rem;
+}
+
+.model-buttons a:nth-child(1){
+    background-color: rgb(62, 106, 225);
+    color: white;
+}
+
+.model-buttons a:nth-child(2){
+    background-color: white;
+    color: rgb(57, 60, 65);
+}
